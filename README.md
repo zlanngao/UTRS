@@ -1,38 +1,10 @@
-# 狗蛋TV
+# 高校教学资源服务网
 
 <p align="center">
   <img width="100" src="https://user-gold-cdn.xitu.io/2018/5/15/163622f528556b3d?w=290&h=290&f=png&s=10175">
 </p>
 
-狗蛋TV是基于微信小程序开发的一款App。gordanLee每天都会推荐一首歌、一篇文章、一段短视频，每天用十分钟的细碎时光，点燃内心的光明。目前分为音乐，短视频，影评三个模块。
-
-![banner.png](https://user-gold-cdn.xitu.io/2018/5/15/163621cf53070049?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1)
-
-- [线上开源地址](https://github.com/lishuaixingNewBee/gordanTv) https://github.com/lishuaixingNewBee/gordanTv 点个赞吧！
-- [小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/)
-
-![引导页](https://user-gold-cdn.xitu.io/2018/5/15/16363d00625d335a?w=267&h=474&f=gif&s=556913)
-
-![音乐页](https://user-gold-cdn.xitu.io/2018/5/15/1635f631d527619f?w=267&h=474&f=gif&s=2425224)
-
-![短视频页](https://user-gold-cdn.xitu.io/2018/5/15/1635f631d52e422c?w=267&h=474&f=gif&s=2739050)
-
-![影评页](https://user-gold-cdn.xitu.io/2018/5/15/1635f631d5460ad5?w=267&h=474&f=gif&s=2924101)
-
-![搜索页](https://user-gold-cdn.xitu.io/2018/5/15/1635f631d55a00f9?w=267&h=474&f=gif&s=1368594)
-
-
-`以下所有 API 均由产品公司自身提供，本人皆从网络获取。获取与共享之行为或有侵犯产品权益的嫌疑。若被告知需停止共享与使用，本人会及时删除此页面与整个项目。请您暸解相关情况，并遵守产品协议。`
-
-为了方便大家学习和测试，我们提供了https的接口供大家使用，且用且珍惜。请在微信开发设置中加入request合法域名,或者在开发设置中勾选——不校验合法域名、web-view（业务域名）、TLS 版本以及 HTTPS 证书。
-
-### 感谢与支持
-```
-    -   ONE一个api: https://api.gordantv.top (服务端做的接口转发，所以有些慢)
-    -   豆瓣api: https://douban.uieee.com
-    -   QQ音乐api: https://c.y.qq.com
-    -   快视频api: https://api.adline.com.cn
-```
+高校教学资源服务网是基于微信小程序开发的一款App。
 
 ###  项目介绍
 狗蛋TV是基于微信小程序+ES6进行开发，能同时运行在Android、iOS环境下。涵盖了音乐、短视频、影评三个版块。
@@ -109,11 +81,5 @@ const convertToStarsArray = (average) => {
 |--- pages & View Dir                     页面
 ```
 ### ○ 更新记录
-#### 2018.5.17
-```
-    -   解决微信小程序中Date.parse()获取时间戳IOS不兼容的问题(IOS为NaN的问题)
-```
-#### 2018.5.25
-```
-    -   微信废弃 获取 wx.getUserInfo 接口后续将不再出现授权弹窗，升级为 <button class="getUserInfo_btn" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">允许</button>
-```
+#### 2019.2.9
+规划小程序的结构，修改课件图标

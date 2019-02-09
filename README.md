@@ -83,3 +83,5 @@ const convertToStarsArray = (average) => {
 ### ○ 更新记录
 #### 2019.2.9
 规划小程序的结构，修改课件图标
+
+根目录下app.json更新，music文件夹修改为courseware文件夹，更新后运行成功，不报错。

@@ -1,9 +1,5 @@
 # 高校教学资源服务网
 
-<p align="center">
-  <img width="100" src="https://user-gold-cdn.xitu.io/2018/5/15/163622f528556b3d?w=290&h=290&f=png&s=10175">
-</p>
-
 高校教学资源服务网是基于微信小程序开发的一款App。
 
 ###  项目介绍

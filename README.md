@@ -1,6 +1,13 @@
 # 高校教学资源服务网
 
 高校教学资源服务网是基于微信小程序开发的一款App。
+### ○ 更新记录
+#### 2019.2.9
+规划小程序的结构，修改课件图标
+
+根目录下app.json更新，pages/music文件夹修改为pages/courseware文件夹，pages/welcome/welcom.js更新后运行成功，不报错。
+出现github上的pages/music文件夹无法删除，本机文件已经改名为courseware，music文件夹是要删除的，查阅资料发现需要使用命令才能删除，问题尚未解决。
+
 
 ###  项目介绍
 狗蛋TV是基于微信小程序+ES6进行开发，能同时运行在Android、iOS环境下。涵盖了音乐、短视频、影评三个版块。
@@ -9,46 +16,9 @@
     2. 调用wx.getUserInfo获取用户头像。
 - 工具类
     1. 用Promise封装wx.request(),简化代码结构:
-    
-```
-const $get = (url, data) => {
-  return new Promise((resolve, reject) => {
-    wx.request({
-      url,
-      data,
-      header: { 'Content-Type': 'json' },
-      success: resolve,
-      fail: reject
-    })
-  })
-}
-```
+    2.  电影评分实现
 
-  2.  电影评分实现
-
-```
-const convertToStarsArray = (average) => {
-  const LENGTH = 5;
-  const CLS_ON = 'on'; // 全星
-  const CLS_HALF = 'half'; // 半星
-  const CLS_OFF = 'off'; // 无星
-  let result = [];
-  let score = Math.round(average) / 2;
-  let hasDecimal = score % 1 !== 0
-  let integer = Math.floor(score)
-  for (let i = 0; i < integer; i++) {
-    result.push(CLS_ON)
-  }
-  if (hasDecimal) {
-    result.push(CLS_HALF)
-  }
-  while (result.length < LENGTH) {
-    result.push(CLS_OFF)
-  }
-  return result;
-}
-```
-    
+```    
 - 小程序内部组件实现上拉刷新，下拉加载
 ```
     方法一：scroll-view 组件
@@ -76,8 +46,3 @@ const convertToStarsArray = (average) => {
 |--- images & Img Resources               图片资源
 |--- pages & View Dir                     页面
 ```
-### ○ 更新记录
-#### 2019.2.9
-规划小程序的结构，修改课件图标
-
-根目录下app.json更新，music文件夹修改为courseware文件夹，更新后运行成功，不报错。

@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/welcome/welcome",
-    "pages/music/music",
-    "pages/music/music-detail/music-detail",
+    "pages/courseware/courseware",
+    "pages/courseware/courseware-detail/music-detail",
     "pages/videos/videos",
     "pages/videos/video-detail/video-detail",
     "pages/review/review",
@@ -16,7 +16,7 @@
     "position": "bottom",
     "list": [
       {
-        "pagePath": "pages/music/music",
+        "pagePath": "pages/courseware/courseware",
         "text": "课件",
         "iconPath": "images/tab/music1.png",
         "selectedIconPath": "images/tab/music.png"

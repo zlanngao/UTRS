@@ -2,7 +2,7 @@
   "pages": [
     "pages/welcome/welcome",
     "pages/courseware/courseware",
-    "pages/courseware/courseware-detail/music-detail",
+    "pages/courseware/courseware-detail/courseware-detail",
     "pages/videos/videos",
     "pages/videos/video-detail/video-detail",
     "pages/review/review",

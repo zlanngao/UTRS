@@ -9,7 +9,7 @@ Page({
   },
   goToIndex() {
     wx.switchTab({
-      url: '../music/music',
+      url: '../courseware/courseware',
     });
   },
   onLoad() {

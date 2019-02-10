@@ -7,6 +7,8 @@
 
 根目录下app.json更新，pages/music文件夹修改为pages/courseware文件夹，pages/welcome/welcom.js更新后运行成功，不报错。
 出现github上的pages/music文件夹无法删除，本机文件已经改名为courseware，music文件夹是要删除的，查阅资料发现需要使用命令才能删除，问题尚未解决。
+#### 20192.10
+更新和删除项目文件，可以直接同步到github网站。步骤：先安装GitHubDesktopSetup.exe桌面客户端，安装好后登录github账号，在本机建立一个空的文件夹，克隆项目到此文件夹，然后手动删除music目录，再回到客户端，写上名称和描述，点击提交，然后上传修改，这样就删除掉了github网站上的music文件夹。
 
 
 ### ○ 项目介绍

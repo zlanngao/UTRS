@@ -12,7 +12,7 @@
     "pages/review/more-movie/more-movie"
   ],
   "tabBar": {
-    "borderStyle": "dark",
+    "borderStyle": "black",
     "position": "bottom",
     "list": [
       {

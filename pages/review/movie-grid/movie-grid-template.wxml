@@ -2,7 +2,7 @@
 <import src="../movie/movie-template.wxml" />
 <template name="movieGridTemplate">
   <view class="list">
-    <block wx:for="{{movieList}}" wx:for-item="movie">
+    <block wx:for="{{movieList}}" wx:key="movieList" wx:for-item="movie">
       <view class="single-view-container">
         <template is="movieTemplate" data="{{...movie}}" />
       </view>

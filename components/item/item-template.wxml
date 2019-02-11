@@ -1,5 +1,5 @@
 <template name="itemTemplate">
-  <block wx:for="{{list}}" wx:for-item="item" wx:for-index="idx">
+  <block wx:for="{{list}}" wx:key="list" wx:for-item="item" wx:for-index="idx">
     <!-- 音乐模块 -->
     <block wx:if="{{style_type === 1}}">
       <view class='music-list' catchtap="openDetail" data-list="{{item}}">
